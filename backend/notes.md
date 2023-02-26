@@ -24,6 +24,12 @@ INSERT INTO restaurants(name, location, price_range) VALUES ('788', 'Lekki', 4);
 1. Make all important fields required
 2. Include check contraints on fields that need them
 
+### Update data in tables
+UPDATE restaurants SET name='Debonaires', location='Ajah', price_range=3 WHERE id=2;
+
+### Delete data in tables
+DELETE FROM restaurants WHERE id=10;
+
 ### Dropping Tables
 
 DROP TABLE table_name;
